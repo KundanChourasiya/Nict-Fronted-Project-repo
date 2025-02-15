@@ -1,0 +1,420 @@
+<!doctype html>
+
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>NICT-Admin Dashboard</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        
+        
+		<!-- THEME STYLES -->
+         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" type="text/css"/>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/Logo/favicon.ico.png">
+    </head>
+    <!-- END HEAD -->
+<style>
+	.ad-st-form-pdf{border: 4px double #333;}
+	.ad-st-card-pdf{border-radius: 0;}
+	.ad-st-card-pdf .card-body{}
+	.ad-st-card-pdf .card-body h5{text-align: center; line-height: 1.5; font-size: 20px; color: #BF2222;}
+	.ad-st-card-pdf .card-body h6{  font-size: 20px; text-align: center; text-decoration:overline; margin-top: 80px;}
+	.ad-st-card-pdf .card-body h4{text-align: center; margin-bottom: 16px; text-decoration: underline;}
+	.ad-st-card-pdf .card-body p{text-align: center; line-height: 0; font-size: 16px;}
+	.ad-st-card-pdf-logo1{width: 210px; height: 138px; float: left;}
+	.ad-st-card-pdf-logo2{width: 150px; height: 150px; float: right; }
+	
+	.ad-st-card-pdf-table .table {width: 100%;  margin-bottom: 0px; color: #333; margin-top: 30px;}
+	.ad-st-card-pdf-table .table td, .table th {padding:  0;vertical-align: top; border:1px solid #333;width: 200px; }
+	.ad-st-card-pdf-table .table  tbody .text1{font-size: 20px; font-weight: bold;  padding: 2px 6px;}
+	.ad-st-card-pdf-table .table  tbody .text2{font-size: 20px; font-weight: bold;  padding: 2px 6px;}
+	.ad-st-card-pdf-table .table  tbody .text3{font-size: 16px; font-weight: bold;  padding: 2px 6px; background: #BFBBBB;}
+	.ad-st-card-pdf-table .table  tbody .text4{font-size: 16px; font-weight: bold;  padding: 2px 6px; }
+	.ad-st-card-pdf-table .table  tbody .text5{font-size: 16px; padding: 2px 6px; }
+	.ad-st-card-pdf-table .table  tbody .text6{font-size: 16px; font-weight: bold;  padding: 2px 6px; background: #BFBBBB; text-align: center;}
+	.ad-st-card-pdf-table .table  tbody .text7{font-size: 16px; padding: 2px 6px;  font-style: italic;}
+	.ad-st-card-pdf-table .table  tbody .text8{ font-size: 16px; padding: 2px 6px; text-align: center; }
+	.ad-st-card-pdf-img{width: 198px; height: 200px; border: 0;}
+	.ad-st-card-pdf-img-top{width: 100%;}
+	
+	
+	@CHARSET "UTF-8";
+	@page {margin-top: 2cm; margin-left: 1cm; margin-right: 1cm; margin-bottom: 2cm; width: 8.27in; height: 11.69in; }
+	@media print {
+		.ad-st-card-pdf .card-body h4{font-size: 18px !important; }
+		.ad-st-card-pdf .card-body h5{font-size: 18px !important;}
+		.ad-st-card-pdf .card-body h6{  font-size: 16px !important;}
+		.ad-st-card-pdf .card-body p{ font-size: 14px !important; }
+		.ad-st-card-pdf-table .table td, .table th { border:1px solid #333 !important;}
+		.ad-st-card-pdf-table .table  tbody .text1{font-size: 18px !important;}
+		.ad-st-card-pdf-table .table  tbody .text2{font-size: 16px !important;}
+		.ad-st-card-pdf-table .table  tbody .text3{font-size: 16px !important; background-color: #BFBBBB !important;
+        -webkit-print-color-adjust: exact;}
+		.ad-st-card-pdf-table .table  tbody .text4{font-size: 16px !important;}
+		.ad-st-card-pdf-table .table  tbody .text5{font-size: 16px !important;}
+		.ad-st-card-pdf-table .table  tbody .text6{font-size: 16px !important; background-color: #BFBBBB !important;
+        -webkit-print-color-adjust: exact;}
+		.ad-st-card-pdf-table .table  tbody .text7{font-size: 16px !important;}
+		.ad-st-card-pdf-table .table  tbody .text8{font-size: 16px !important;}
+		
+
+}
+	
+</style>
+
+
+
+
+ <body>
+ 
+ 
+<div class="jumbotron-fluid ad-st-form-pdf">
+ <div class="card ad-st-card-pdf">
+    <div class="card-body">
+    <div class="row">
+    <div class="col-sm-4"><img src="img/Logo/pdf_page_logo1.PNG" class="ad-st-card-pdf-logo1"></div>
+    <div class="col-sm-4">
+    
+    <h5>Dr. Bhim Roa Ambedkar Shiksha Sansthan</h5>
+    <p>Regd. Office : Bhowra No. 16, (Jharkhand)</p>
+    <p>Registered Under Societies</p>
+    <p>Registration Act. 1860 No. Jharkhand/830-4-10-07</p>
+    <p>Bihar/110/76-77 & F.C.R.A. No. 031070007</p>
+    <p>Govt. Regd. No. DN 6786</p>
+    <h5>An ISO 9001: 2008 Certified</h5>
+    <h4>Admission Form</h4>
+    <p> (Student Copy )</p>
+    
+    </div>
+    <div class="col-sm-4"><img src="img/Logo/pdf_page_logo2.png" class="ad-st-card-pdf-logo2"></div>
+    </div>
+    
+  <div class="ad-st-card-pdf-table">
+  <table class="table table-bordered">
+  	<tr>
+  		<td class="text1">Serial No.</td>
+  		<td class="text2">0011</td>
+  		<td class="text1">Registraion No.</td>
+  		<td class="text2">123645669</td>
+  	</tr>
+	  <tr>
+	  	<td colspan="4" class="text3"> Apply For</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Course Name</td>
+	  	<td class="text5">DCA</td>
+	  	<td class="text4">Course Duration</td>
+	  	<td class="text5">3 Months</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Course Fee</td>
+	  	<td class="text5">1500 /-</td>
+	  	<td class="text4">Admition Date</td>
+	  	<td class="text5">12/12/2019</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Batch Time</td>
+	  	<td class="text5">04:00 PM</td>
+	  	<td class="text4">Study Center</td>
+	  	<td class="text5">NICT Computer Education, Dhanbad</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="4" class="text3"> Student Details</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Student Name</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  	 <td rowspan="9" colspan="3">
+			<div class="card ad-st-card-pdf-img">
+				<img class="card-img-top ad-st-card-pdf-img-top" src="img/find_user.png" alt="Card image">
+			</div>
+		</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Father's Name</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Mother's Name</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Date of Birth</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Gender</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Email id:</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Mobile No.</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Address</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Permanent Address</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="4" class="text3"> Education Details</td>
+	  </tr>
+	  
+	 <tr>
+	  	<td colspan="2" class="text4">Higher Qulification:</td>
+	  	<td colspan="2" class="text5">10th</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="2" class="text4">Year of Passing:</td>
+	  	<td colspan="2" class="text5">2016</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="2" class="text4">School / College Name:</td>
+	  	<td colspan="2" class="text5">Ravi Mahato Smarak High School, Mahuda</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="4" class="text6"> Declaration</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="4" class="text7">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
+		I hereby declare that the above information provided by me is subject to verification by <strong>NICT</strong>
+	  	I here by acknowledge that I have read and understood the rules and regulations, fee structure, syllabus decided by <strong>NICT</strong> and agree to abide by the same.
+ 		</td>
+	  </tr>
+ 		<tr>
+ 			<td colspan="4" class="text8">
+ 			<div class="row">
+ 				<div class="col-md-9"></div>
+ 				<div class="col-md-3"> 
+					<h6>Signature</h6>
+ 				
+					(Admisition By)
+ 				<br>
+ 				Kundan Kumar chourasiya
+ 				
+ 				</div>
+ 			</div>
+			</td>
+ 		</tr>
+ 		
+	
+	  
+	  
+  </table>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+<p style="page-break-before: always">
+
+
+<div class="jumbotron-fluid ad-st-form-pdf">
+ <div class="card ad-st-card-pdf">
+    <div class="card-body">
+    <div class="row">
+    <div class="col-sm-4"><img src="img/Logo/pdf_page_logo1.PNG" class="ad-st-card-pdf-logo1"></div>
+    <div class="col-sm-4">
+    
+    <h5>Dr. Bhim Roa Ambedkar Shiksha Sansthan</h5>
+    <p>Regd. Office : Bhowra No. 16, (Jharkhand)</p>
+    <p>Registered Under Societies</p>
+    <p>Registration Act. 1860 No. Jharkhand/830-4-10-07</p>
+    <p>Bihar/110/76-77 & F.C.R.A. No. 031070007</p>
+    <p>Govt. Regd. No. DN 6786</p>
+    <h5>An ISO 9001: 2008 Certified</h5>
+    <h4>Admission Form</h4>
+    <p> (Office Copy )</p>
+    
+    </div>
+    <div class="col-sm-4"><img src="img/Logo/pdf_page_logo2.png" class="ad-st-card-pdf-logo2"></div>
+    </div>
+    
+  <div class="ad-st-card-pdf-table">
+  <table class="table table-bordered">
+  	<tr>
+  		<td class="text1">Serial No.</td>
+  		<td class="text2">0011</td>
+  		<td class="text1">Registraion No.</td>
+  		<td class="text2">123645669</td>
+  	</tr>
+	  <tr>
+	  	<td colspan="4" class="text3"> Apply For</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Course Name</td>
+	  	<td class="text5">DCA</td>
+	  	<td class="text4">Course Duration</td>
+	  	<td class="text5">3 Months</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Course Fee</td>
+	  	<td class="text5">1500 /-</td>
+	  	<td class="text4">Admition Date</td>
+	  	<td class="text5">12/12/2019</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Batch Time</td>
+	  	<td class="text5">04:00 PM</td>
+	  	<td class="text4">Study Center</td>
+	  	<td class="text5">NICT Computer Education, Dhanbad</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="4" class="text3"> Student Details</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Student Name</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  	 <td rowspan="9" colspan="3">
+			<div class="card ad-st-card-pdf-img">
+				<img class="card-img-top ad-st-card-pdf-img-top" src="img/find_user.png" alt="Card image">
+			</div>
+		</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Father's Name</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Mother's Name</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Date of Birth</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  <tr>
+	  	<td class="text4">Gender</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Email id:</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Mobile No.</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Address</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td class="text4">Permanent Address</td>
+	  	<td colspan="2" class="text5">kundan Kumar chourasiya</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="4" class="text3"> Education Details</td>
+	  </tr>
+	  
+	 <tr>
+	  	<td colspan="2" class="text4">Higher Qulification:</td>
+	  	<td colspan="2" class="text5">10th</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="2" class="text4">Year of Passing:</td>
+	  	<td colspan="2" class="text5">2016</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="2" class="text4">School / College Name:</td>
+	  	<td colspan="2" class="text5">Ravi Mahato Smarak High School, Mahuda</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="4" class="text6"> Declaration</td>
+	  </tr>
+	  
+	  <tr>
+	  	<td colspan="4" class="text7">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
+		I hereby declare that the above information provided by me is subject to verification by <strong>NICT</strong>
+	  	I here by acknowledge that I have read and understood the rules and regulations, fee structure, syllabus decided by <strong>NICT</strong> and agree to abide by the same.
+ 		</td>
+	  </tr>
+ 		<tr>
+ 			<td colspan="4" class="text8">
+ 			<div class="row">
+ 				<div class="col-md-9"></div>
+ 				<div class="col-md-3"> 
+					<h6>Signature</h6>
+ 				
+					(Admisition By)
+ 				<br>
+ 				Kundan Kumar chourasiya
+ 				
+ 				</div>
+ 			</div>
+			</td>
+ 		</tr>
+ 		
+	
+	  
+	  
+  </table>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+</p>
+
+
+
+
+
+
+	
+
+        <!-- CORE PLUGINS -->
+        <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+        <script src="js/popper-min 1.12.5.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+      	
+			
+	 
+ </body>
+</html>

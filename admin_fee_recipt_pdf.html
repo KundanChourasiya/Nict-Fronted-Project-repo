@@ -1,0 +1,326 @@
+<!doctype html>
+
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>NICT-Admin Dashboard</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        
+         <!-- Data table bootstrap Table -->
+        <link href="css/dataTables.bootstrap4.min.css" type="text/css" rel="stylesheet">
+        
+        
+		<!-- THEME STYLES -->
+         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" type="text/css"/>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/Logo/favicon.ico.png">
+    </head>
+    <!-- END HEAD -->
+<style>
+	.ad-fee-receipt-pdf{border: 4px double #333;}
+	.ad-fee-receipt-card{border: 0;}
+	.ad-fee-receipt-card .card-body .logo1{ height: 85px;}
+	.ad-fee-receipt-card .card-body h4{ text-align: center; font-size: 18px;}
+	.ad-fee-receipt-card .card-body h6{ text-align: center; font-size: 18px;}
+	.ad-fee-receipt-card .card-body p{ text-align: center; line-height: 0; font-size: 13px;}
+	.ad-fee-receipt-card .card-body hr{border-top: 1px solid #333;}
+	.ad-fee-receipt-card .card-body .table1 td, .table1 th {padding:  0;vertical-align: top; border:0px solid #333;width: 200px; }
+	.ad-fee-receipt-card .card-body .table1 tbody .text1{ font-size:14px;font-weight: bold;}
+	.ad-fee-receipt-card .card-body .table1 tbody .text2{ font-size:14px;}
+	
+	.ad-fee-receipt-card .card-body .table2 td, .table2 th {padding:  0;vertical-align: top; border:1px solid #333;}
+	.ad-fee-receipt-card .card-body .table2 thead th {border-bottom: 1px solid #333; text-align: center; }
+	.ad-fee-receipt-card .card-body .table2 tbody .text3 { text-align: center; height: 220px; width: 30px;}
+	.ad-fee-receipt-card .card-body .table2 tbody .text4 { text-align: center; height: 220px; width: 380px;}
+	.ad-fee-receipt-card .card-body .table2 tbody .text5 { text-align: center; height: 220px; width: 170px;}
+	.ad-fee-receipt-card .card-body .table2 tfoot .text6 { text-align: right;  border-left: 0; border-bottom: 0; padding: 0px 20px;}
+	.ad-fee-receipt-card .card-body .table2 tfoot .text7 { text-align: center;}
+	.ad-fee-receipt-card .card-body .As{ text-align: center; line-height: 1.5; font-size: 12px;}
+	
+	
+	.ad-fee-receipt-card-vl { border-left: 2px dashed #333; height: 680px; position: absolute; left: 50%; margin-left: 0px; top: 0; }
+	
+	@CHARSET "UTF-8";
+	@page {margin-top: 1.5cm; margin-left: 0.5cm; margin-right: 0.5cm; margin-bottom: 0.5cm; width: 8.27in; height: 11.69in; size: a4 landscape;  }
+	
+	
+</style>
+
+
+
+
+ <body>
+ <div class="row">
+ 	<div class="col-md-6">
+ 		<div class="jumbotron-fluid ad-fee-receipt-pdf">
+ 			<div class="card ad-fee-receipt-card">
+    <div class="card-body">
+    	<div class="row">
+    		<div class="col-sm-2">
+    			<img src="img/Logo/pdf_page_logo1.PNG" class="logo1">
+    		</div>
+    		<div class="col-sm-10">
+    		<h4>NICT - AN IT TRAINING CENTER</h4>
+				<p>JC Mallick Rd, Baba Colony, Hirapur, CMPF Colony, </p>
+    		<p>Dhanbad, Jharkhand 826001</p>
+    		<p>Mobile No. - +918271310410</p>
+    		<h6> FEE RECEIPT</h6>
+    		<p>(Student Copy)</p>
+    		</div>
+    	</div>
+    	
+    	<table class="table table1">
+    	<tbody>
+    		<tr>
+    			<td class="text1">Receipt No:</td>
+    			<td class="text2">0101</td>
+    			<td class="text1">Date:</td>
+    			<td class="text2">22/10/2020</td>
+    		</tr>
+    		
+    		<tr>
+    			<td class="text1">Registration No.</td>
+    			<td colspan="3" class="text2">122355455</td>
+    		</tr>
+    		<tr>
+    			<td class="text1">Student's Name:</td>
+    			<td colspan="3" class="text2">Kundan Kumar Chourasiya</td>
+    		</tr>
+    		
+    		<tr>
+    			<td class="text1">Course Name</td>
+    			<td class="text2">DCA</td>
+    			<td class="text1">Payment Mode</td>
+    			<td class="text2">Case</td>
+    		</tr>
+    	</tbody>
+    	</table>
+    	<hr>
+    	
+    	<table class="table table2" id="mydatatable">
+    		<thead>
+    			<th>#</th>
+    			<th>Description</th>
+    			<th>Amount</th>
+    		</thead>
+    		<tbody>
+    			<tr>
+    				<td class="text3">1</td>
+    				<td class="text4">Month-jaun</td>
+    				<td class="text5">500.00</td>
+				</tr>
+    		</tbody>
+    		<tfoot>
+				<tr>
+					<th colspan="2" class="text6">Total</th>
+					<th class="text7"></th>
+				</tr>
+			</tfoot>
+    	</table>
+    	
+    	<div class="row">
+    		<div class="col-md-5 offset-7">
+    			<p class="As">For NICT-AN IT TRAINING CENTER</p>
+    			<br>
+    			<p class="As">Authorised Signatory<br> (Ponam Chourasia)</p>
+    		</div>
+    	</div>
+    </div>
+  </div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div class="ad-fee-receipt-card-vl"></div>
+ 	
+<div class="col-md-6">
+ 		<div class="jumbotron-fluid ad-fee-receipt-pdf">
+ 			<div class="card ad-fee-receipt-card">
+    <div class="card-body">
+    	<div class="row">
+    		<div class="col-sm-2">
+    			<img src="img/Logo/pdf_page_logo1.PNG" class="logo1">
+    		</div>
+    		<div class="col-sm-10">
+    		<h4>NICT - AN IT TRAINING CENTER</h4>
+				<p>JC Mallick Rd, Baba Colony, Hirapur, CMPF Colony, </p>
+    		<p>Dhanbad, Jharkhand 826001</p>
+    		<p>Mobile No. - +918271310410</p>
+    		<h6> FEE RECEIPT</h6>
+    		<p>(Student Copy)</p>
+    		</div>
+    	</div>
+    	
+    	<table class="table table1">
+    	<tbody>
+    		<tr>
+    			<td class="text1">Receipt No:</td>
+    			<td class="text2">0101</td>
+    			<td class="text1">Date:</td>
+    			<td class="text2">22/10/2020</td>
+    		</tr>
+    		
+    		<tr>
+    			<td class="text1">Registration No.</td>
+    			<td colspan="3" class="text2">122355455</td>
+    		</tr>
+    		<tr>
+    			<td class="text1">Student's Name:</td>
+    			<td colspan="3" class="text2">Kundan Kumar Chourasiya</td>
+    		</tr>
+    		
+    		<tr>
+    			<td class="text1">Course Name</td>
+    			<td class="text2">DCA</td>
+    			<td class="text1">Payment Mode</td>
+    			<td class="text2">Case</td>
+    		</tr>
+    	</tbody>
+    	</table>
+    	<hr>
+    	
+    	<table class="table table2" id="mydatatable2">
+    		<thead>
+    			<th>#</th>
+    			<th>Description</th>
+    			<th>Amount</th>
+    		</thead>
+    		<tbody>
+    			<tr>
+    				<td class="text3">1</td>
+    				<td class="text4">Month-jaun</td>
+    				<td class="text5">300.00</td>
+				</tr>
+    		</tbody>
+    		<tfoot>
+				<tr>
+					<th colspan="2" class="text6">Total</th>
+					<th class="text7"></th>
+				</tr>
+			</tfoot>
+    	</table>
+    	
+    	<div class="row">
+    		<div class="col-md-5 offset-7">
+    			<p class="As">For NICT-AN IT TRAINING CENTER</p>
+    			<br>
+    			<p class="As">Authorised Signatory<br> (Ponam Chourasia)</p>
+    		</div>
+    	</div>
+    </div>
+  </div>
+ 		</div>
+ 	</div>
+ </div>
+ 
+ 
+ 	
+
+        <!-- CORE PLUGINS -->
+        <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+        <script src="js/popper-min 1.12.5.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        
+          <!-- Data Table Plugins -->
+	 	<script src="js/jquery.dataTables.min.js" type="text/javascript"></script>
+	 	<script src="js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+      	
+      	  <script>
+	  $('#mydatatable').DataTable({
+		  "searching":false,
+		  "paging":   false,
+          "ordering": false,
+          "info":     false,
+		  footerCallback: function(row, data, start, end, display){
+			  var api = this.api(), data;
+			  
+			  // Remove the formatting to get integer data for summation
+			  var intVal = function (i){
+				  return typeof i == 'string' ?
+					  i.replace(/[\$,]/g, '') * 1:
+				  	  typeof i == 'number' ?
+					  i:0;
+			  };
+			  
+			  // Total over all pages
+			  total = api
+			  	.column (2)
+			  	.data()
+			  	.reduce(function (a,b){
+				  return intVal(a) + intVal(b);
+			  },0 );
+			  
+			  // Total over this page
+			  pageTotal = api
+			  	.column(2, {page: 'current'})
+			  	.data()
+			  	.	reduce( function (a, b){
+				  return intVal(a) + intVal(b);
+			  }, 0);
+			  
+			  // Update footer
+			  $(api.column(2).footer() ).html(
+				  ' ($ '+ total +'.00)'
+			  );
+		  }
+	  })
+  </script>
+      	
+      	
+      	 <script>
+	  $('#mydatatable2').DataTable({
+		  "searching":false,
+		  "paging":   false,
+          "ordering": false,
+          "info":     false,
+		  footerCallback: function(row, data, start, end, display){
+			  var api = this.api(), data;
+			  
+			  // Remove the formatting to get integer data for summation
+			  var intVal = function (i){
+				  return typeof i == 'string' ?
+					  i.replace(/[\$,]/g, '') * 1:
+				  	  typeof i == 'number' ?
+					  i:0;
+			  };
+			  
+			  // Total over all pages
+			  total = api
+			  	.column (2)
+			  	.data()
+			  	.reduce(function (a,b){
+				  return intVal(a) + intVal(b);
+			  },0 );
+			  
+			  // Total over this page
+			  pageTotal = api
+			  	.column(2, {page: 'current'})
+			  	.data()
+			  	.	reduce( function (a, b){
+				  return intVal(a) + intVal(b);
+			  }, 0);
+			  
+			  // Update footer
+			  $(api.column(2).footer() ).html(
+				  ' ($ '+ total +'.00)'
+			  );
+		  }
+	  })
+  </script>
+
+
+      	
+			
+	 
+ </body>
+</html>

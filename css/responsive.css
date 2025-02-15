@@ -1,0 +1,834 @@
+/*---------------- All Media Screen size for tablets mobile responsive -----------*/
+/* 
+   Portrait tablets and medium desktops- max-width:991px and max-width:1199px
+   Landscape phones and portrait tablets - max-width:768px
+   Landscape phones and smaller -max-width:550px
+   Landscape phones and smaller -max-width:479px
+   Landscape phones and smaller -max-width:411px
+   Landscape phones and smaller -max-width:360px
+*/
+
+
+
+/*------------------ Portrait tablets and medium desktops ---------------------*/
+@media screen and  (max-width:991px)  and (max-width: 1199px){
+	/*-------- Heading main ---------- */
+	.heading{font-size:22px;}
+	.heading_hr{width: 10%;}
+	 p {color:#333; font-size: 15px;}
+	
+	/* ---------- loader -------------*/ 
+	#loader{width: 80px; height: 80px;}
+	
+	/* ---------- advt -------------*/ 
+	.advt_popup{padding-top: 112px;}
+	.advt_img {height: 185px;}
+	.advt_popup_close{font-size: 20px;}
+	
+	/* Loader Css */
+	.advt_img { height: 220px;}
+	.advt_popup_close{font-size: 20px;}
+	
+	/* Back to top Button */
+	.back-to-top{width: 30px; height: 30px; line-height: 2;}
+	
+	/*----------- Nav bar ----------- */
+	#mainNav.affix_nav {position: fixed; background-color: #f8f9fa; padding: 8px; box-shadow:none;}
+	.navbar-fixed-top{ position:fixed; background-color:#f8f9fa; padding:8px; }
+	.navbar-nav .nav-link{ font-size:15px !important;  color:black; padding: 12px;}
+	.navbar-nav .nav-link:hover{color: black;}
+	.navbar img {padding-left: 0px; height: 45px;}
+	
+	/* ----------- silder ----------- */
+	.carousel-inner img{height: 45vh; width: 100%; margin-top: 72px;}
+	.carousel-caption h1{bottom: 72px; font-size: 18px;}
+	.carousel-caption h4{bottom: 50px; font-size: 16px;}
+	.carousel-caption h6{bottom: -4px; font-size: 12px; line-height: 0.8;}
+	
+	/* ----------- Course ----------- */
+	.course_img{width: 40%;height: 40%;margin-left: 0px;}
+	
+	/* ----------- Image Mapping  -------- */
+	.img_heading{font-size: 18px;}
+	.img_hover_heading{font-size: 18px;}
+	.img_hover_contain {font-size: 12px; padding: 0px; color: #333;}
+	.moniter{display:none; position:absolute;right:5px; top:10px; height:91%; width:97.5%; }
+	.specker{display:none; position:absolute;right:5px; top:10px; height:91%; width:97.5%; }
+	.cpu{display:none; position:absolute;right:5px; top:10px; height:91%; width:97.5%; }
+	.mouse{display:none; position:absolute;right:5px; top:10px; height:91%; width:97.5%; }
+	.keyboard{display:none; position:absolute;right:5px; top:10px; height:91%; width:97.5%; }
+	
+	/* -------------Faculty ------------ */
+	.faculty-box .title{font-size:15px;}
+	.faculty-box .post{ font-size:12px;}
+	.faculty-box .icon li a{ width:20px; height:20px;line-height:20px; font-size:12px; }
+	.faculty-box img { width: 100%; height: 250px;}
+	
+	/* ----------- Promo-banner section ---- */
+	.promo-banner .promo-banner-title{font-size:35px;}
+	
+	/* ------------ footer ---------------*/
+	.fo-hr { width:14%;}
+	.fo_icon{padding: 2px;}
+	.fo-text1{text-align: center; margin-left: 0px; font-size: 14px;    display: flow-root; }
+	.fo-text2 {font-size: 14px;}
+	.fo-title {font-size: 14px;}
+	.fo-copy .lefttext{font-size: 14px;color: #878787; text-align:left;}
+	.fo-copy .righttext{font-size: 14px; margin-top:16px; color: #878787; text-align:right;}
+	.fo-copy .middletext{font-size: 14px; margin-top:16px; color: #878787; text-align:right;}
+	.fo-name{font-size:13px; }
+	.fo-content{font-size: 10px;}
+	
+	/* aboutpage */
+	.op-promo-banner .op-promo-banner-title {font-size: 25px;}
+	.about_table i {  font-size: 26px; }
+	.about_table .about_text1{ font-size: 20px; font-weight: 550;}
+	.about_table .about_text2{ font-size: 14px;}
+	.about_logo_img1{height: 300px; margin: 0;}
+	.about_logo_img2{height: 150px; width: 150px;  margin: 0;}
+	.about_txt_name { text-align: center; font-size: 20px;}
+	
+	
+	
+	/* Courses page */
+	#accordion a{padding: 2px 10px;}
+	.panel-title{font-size: 16px;}
+	.panel-body .coures-description {font-size: 14px;}
+	.panel-body .coures-summary {font-size: 14px;}
+	.panel-body table , th {font-size: 14px;}
+	.course_offer_img {height: 200px; width: 100%;}
+	
+		/* contact us page */
+	.contact-form label {font-size: 14px;}
+	.contact-form .form-group {margin-bottom: 0.5rem;}
+	.contact-form .form-control {height: 35px;font-size: 13px;}
+	.contact-form .btn-primary{   padding: 4px 16px;}
+	.contact-info {text-align: left; margin-top: 30px; margin-left: 15px;}
+	.contact-info h3{ font-size: 20px;}
+	.contact-info p{ font-size: 14px;}
+	
+	/* All Login page*/
+	.custom-loginpage-crad{margin-top: 65px !important;}
+	.custom-loginpage-crad label{font-size: 14px;}
+	.custom-loginpage-crad .card-body .heading {font-size: 20px;}
+	.custom-loginpage-crad .card-body .heading_hr{width: 10%;}
+	.custom-loginpage-crad .form-group {margin-bottom: 0.5rem;}
+	.custom-loginpage-crad .form-control {height: 35px;font-size: 13px;}
+	.custom-loginpage-crad .btn-primary{padding: 4px 16px;}
+	.custom-loginpage-crad p{font-size: 13px;}
+	
+	/*student Dashboard and track Result page */
+	/*student Dashboard and track Result page */
+	.navbar-dark .navbar-brand{font-size: 18px; padding: 0px 10px;}
+	.navbar-toggler-icon{font-size: 16px;}
+	.navbar-expand-md>.container, .navbar-expand-md>.container-fluid{ max-width: 976px;}
+	.sd_container{ max-width: 976px; margin-top:100px;}
+	.sd_jumbotrom {}
+	.sd_img{width: 80px; height: 80px;}
+	.box_head { width: 165px; height: 30px;}
+	.box_head_text {font-size: 12px;}
+	.box_head_hr{border: 1px solid #172337;}
+	.sd_container .table tbody .text1{font-size: 13px;}
+	.sd_container .table tbody .text2{font-size: 13px;}
+	.sd_container table.dataTable{ margin-top: -50px !important;margin-bottom: -50px !important;}
+	.sd_container .table thead .text3 {font-size: 13px;}
+	.sd_container .table thead .text4 {font-size: 13px;}
+	.sd_container .table tbody .text5{font-size: 13px;}
+	.sd_container .table tfoot th{font-size: 10px;}
+
+	
+	/*--------------------- Error and logout Page ---------------------*/
+	.er_page{margin: 95px 0px}
+	.er_text1{font-size: 50px;}
+	.er_text3{font-size: 16px;}
+	.er_text4{font-size: 12px;}
+	.er_btn{font-size: 12px;}
+
+	
+	}
+
+
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 768px) {
+	/* Heading main */
+	.heading{font-size:24px;}
+	.heading_hr{width: 10%;}
+	 p {color:#333; font-size: 14px;}
+	
+	/* Fancy-border */
+	.fancy-border {background-size: 100% 2px; border-left: 2px solid #BF2222; border-right: 2px solid #190182;}
+	
+	/* Loader Css */
+	.advt_img { height: 200px;}
+	.advt_popup_close{font-size: 20px;}
+	
+	/* Back to top Button */
+	.back-to-top{width: 30px; height: 30px; line-height: 2;}
+	
+	/* Nav bar */
+	#mainNav.affix_nav {position: fixed; background-color: #f8f9fa;padding: 8px;box-shadow:none;}
+	.navbar-fixed-top{ position:fixed; background-color:#f8f9fa;}
+	.navbar-nav .nav-link{ font-size:14px !important;  color:black; padding: 12px;}
+	.navbar-nav .nav-link:hover{color: black;}
+	.navbar img {padding-left: 0px; width: auto; height: 50px;}
+	
+	/*silder */
+	.carousel-indicators li {width: 5px; height: 5px;display: -webkit-box; bottom: -10px;}
+	.carousel-indicators .active {width: 5px; height: 5px;background-color: #BF2222;}
+	.carousel-inner img{height: 40vh; width: 100%; margin-top: 76px;}
+	.carousel-caption h1{bottom: 66px; font-size: 16px;}
+	.carousel-caption h4{bottom: 47px; font-size: 13px;}
+	.carousel-caption h6{bottom: 0px; font-size: 12px; line-height: 0.5;}
+	
+	/* Course */
+	.course_img{width: 40%;height: 40%;margin-left: 0px;}
+	
+	/* Image Mapping */
+	.img_heading{font-size: 16px;}
+	.img_hover_heading{font-size: 16px;}
+	.moniter{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.3%; overflow:scroll;}
+	.specker{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.3%; overflow:scroll;}
+	.cpu{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.3%; overflow:scroll;}
+	.mouse{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.3%; overflow:scroll;}
+	.keyboard{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.3%; overflow:scroll;}
+	
+	/* Faculty */
+	.faculty-box .title{font-size:15px;}
+	.faculty-box .post{ font-size:12px;}
+	.faculty-box .icon li a{ width:20px; height:20px;line-height:20px; font-size:12px; }
+	.faculty-box img { width: 100%; height: 250px;}
+	
+	/* Promo-banner section */
+	.promo-banner .promo-banner-title{font-size:35px;}
+	
+	/* footer*/
+	.fo-hr { width:10%;}
+	.fo_icon{padding: 2px;}
+	.fo-text1{text-align: center; margin-left: 0px; font-size: 13px;display:flow-root;}
+	.fo-text2 {font-size: 13px;}
+	.fo-copy .lefttext{font-size: 13px;color: #878787; text-align:center;}
+	.fo-copy .righttext{ font-size: 13px; margin-top:18px; color: #878787; text-align:center;}
+	.fo-copy .middletext{ font-size: 13px; margin-top:18px; color: #878787; text-align:center;}
+	.fo-name{font-size:12px; }
+	.fo-content{font-size: 8px;}
+	
+	/* aboutpage */
+	.op-promo-banner .op-promo-banner-title {font-size: 20px;}
+	.about_table i {  font-size: 26px; }
+	.about_table .about_text1{ font-size: 18px; font-weight: 550;}
+	.about_table .about_text2{ font-size: 14px;}
+	.about_logo_img1{height: 200px; margin: 0;}
+	.about_logo_img2{height: 100px; width: 100px;  margin: 0;}
+	.about_txt_name { text-align: center; font-size: 20px;}
+	
+	/* Courses page */
+	#accordion a{padding: 2px 8px;}
+	.panel-title{font-size: 14px;}
+	.panel-body .coures-description {font-size: 12px;}
+	.panel-body .coures-summary {font-size: 12px;}
+	.panel-body table , th {font-size: 12px;}
+	.course_offer_img {height: 200px; width: 100%;}
+	
+	/* faculty page css*/
+	.faculty_page_img{height: 100px; width: 100px;}
+	.faculty_page_txt_name { text-align: center; font-size: 18px; }
+	
+	
+		/* contact us page */
+	.contact-form label {font-size: 14px;}
+	.contact-form .form-group {margin-bottom: 0.5rem;}
+	.contact-form .form-control {height: 35px;font-size: 13px;}
+	.contact-form .btn-primary{   padding: 4px 16px;}
+	.contact-info {text-align: left; margin-top: 30px; margin-left: 15px;}
+	.contact-info h3{ font-size: 20px;}
+	.contact-info p{ font-size: 14px;}
+	
+	/* All Login page*/
+	.custom-loginpage-crad{margin-top: 50px !important;}
+	.custom-loginpage-crad label{font-size: 14px;}
+	.custom-loginpage-crad .card-body .heading {font-size: 20px;}
+	.custom-loginpage-crad .card-body .heading_hr{width: 10%;}
+	.custom-loginpage-crad .form-group {margin-bottom: 0.5rem;}
+	.custom-loginpage-crad .form-control {height: 35px;font-size: 13px;}
+	.custom-loginpage-crad .btn-primary{padding: 4px 16px;}
+	.custom-loginpage-crad p{font-size: 13px;}
+	
+	/*student Dashboard and track Result page */
+	.navbar-dark .navbar-brand{font-size: 18px; padding: 0px 10px;}
+	.navbar-toggler-icon{font-size: 16px;}
+	.navbar-expand-md>.container, .navbar-expand-md>.container-fluid{ max-width: 765px;}
+	.sd_container{ max-width: 765px; margin-top:80px;}
+	.sd_jumbotrom {}
+	.sd_img{width: 80px; height: 80px;}
+	.box_head { width: 165px; height: 30px;}
+	.box_head_text {font-size: 12px;}
+	.box_head_hr{border: 1px solid #172337;}
+	.sd_container .table tbody .text1{font-size: 13px;}
+	.sd_container .table tbody .text2{font-size: 13px;}
+	.sd_container table.dataTable{ margin-top: -78px !important;margin-bottom: -78px !important;}
+	.sd_container .table thead .text3 {font-size: 13px;}
+	.sd_container .table thead .text4 {font-size: 13px;}
+	.sd_container .table tbody .text5{font-size: 13px;}
+	.sd_container .table tfoot th{font-size: 10px;}
+
+	
+	
+	/*--------------------- Error and logout Page ---------------------*/
+	.er_page{margin: 95px 0px}
+	.er_text1{font-size: 50px;}
+	.er_text3{font-size: 16px;}
+	.er_text4{font-size: 12px;}
+	.er_btn{font-size: 12px;}
+
+}
+
+/* Landscape phones and smaller */
+@media screen and  (max-width: 550px) {
+    /* Heading main */
+	.heading{font-size:18px;}
+	.heading_hr{width: 10%;}
+	 p {color:#333; font-size: 13px;}
+	
+	/* Fancy-border */
+	.fancy-border {background-size: 100% 2px; border-left: 2px solid #BF2222; border-right: 2px solid #190182;}
+	
+		/* Loader Css */
+	.advt_img { height: 130px;}
+	.advt_popup_close{font-size: 16px;}
+	
+	/* Back to top Button */
+	.back-to-top{width: 30px; height: 30px; line-height: 2;}
+	
+	/* Nav bar */
+	#mainNav.affix_nav {position: fixed; background-color: #f8f9fa;padding: 8px;box-shadow:none;}
+	.navbar-fixed-top{ position:fixed; background-color:#f8f9fa;}
+	.navbar-nav .nav-link{ font-size:14px !important;  color:black; padding: 8px;}
+	.navbar-nav .nav-link:hover{color: black;}
+	.navbar img {padding-left: 0px; width: auto; height: 40px;}
+	
+	/*silder */
+	.carousel-indicators li {width: 5px; height: 5px;display: -webkit-box; bottom: -10px;}
+	.carousel-indicators .active {width: 5px; height: 5px;background-color: #BF2222;}
+	.carousel-inner img{height: 45vh; width: 100%; margin-top: 65px;}
+	.carousel-caption h1{bottom: 54px; font-size: 16px;}
+	.carousel-caption h4{bottom: 37px; font-size: 12px;}
+	.carousel-caption h6{bottom: -8px; font-size: 9px; line-height: 0.5;}
+	
+	/* Course */
+	.course_img{width: 40%;height: 40%;margin-left: 36px}
+	
+	/* Image Mapping */
+	.img_heading{font-size: 16px;}
+	.img_hover_contain {font-size: 14px;padding: 0px;color: #333;}
+	.img_hover_heading {font-size: 16px;padding: 8px;color: #BF2222;}
+	.moniter{display:none; position:absolute;right:5px; top:10px; height:87.9%; width:98.5%; overflow:scroll;}
+	.specker{display:none; position:absolute;right:5px; top:10px; height:87.9%; width:98.5%; overflow:scroll;}
+	.cpu{display:none; position:absolute;right:5px; top:10px; height:87.9%; width:98.5%; overflow:scroll;}
+	.mouse{display:none; position:absolute;right:5px; top:10px; height:87.9%; width:98.5%; overflow:scroll;}
+	.keyboard{display:none; position:absolute;right:5px; top:10px; height:87.9%; width:98.5%; overflow:scroll;}
+	
+	
+	/* Faculty */
+	.sm_size_container{width: 50%; padding-left: 20px; }
+	.faculty-box img {width: 100%;height: 260px;}
+	.faculty-box .title{font-size:14px;}
+	.faculty-box .post{ font-size:12px;}
+	.faculty-box .icon li a{ width:20px; height:20px;line-height:20px; font-size:12px; }
+	
+	/* Promo-banner section */
+	.promo-banner .promo-banner-title{font-size:35px;}
+	
+	/* footer*/
+	.fo-hr { width:10%;}
+	.fo_icon{padding: 2px;}
+	.fo-text1{text-align: center; margin-left: 0px;font-size: 12px; display: block;}
+	.fo-text2 {font-size: 12px;}
+	.fo-copy .lefttext{font-size: 12px;color: #878787; text-align:center;}
+	.fo-copy .righttext{font-size: 12px; margin-top:-38px; color: #878787; text-align:center;}
+	.fo-copy .middletext{font-size: 12px;margin-top: -38px;color: #878787; text-align:center;}
+	.fo-name{font-size:14px; }
+	.fo-content{font-size: 12px;}
+	
+	/* aboutpage */
+	.op-promo-banner .op-promo-banner-title {font-size: 20px;}
+	.about_table i {  font-size: 20px; }
+	.about_table .about_text1{ font-size: 16px; font-weight: 550;}
+	.about_table .about_text2{ font-size: 12px;}
+	.about_logo_img1{height: 200px; margin: 0;}
+	.about_logo_img2{height: 100px; width: 100px;  margin: 0;}
+	.about_txt_name { text-align: center; font-size: 18px;}
+	
+	/* Courses page */
+	#accordion a{padding: 4px 8px;}
+	.panel-title{font-size: 14px;}
+	.panel-body .coures-description {font-size: 12px;}
+	.panel-body .coures-summary {font-size: 12px;}
+	.panel-body table , th {font-size: 12px;}
+	.course_offer_img {height: 250px; width: 100%;}
+	
+	/* faculty page css*/
+	.faculty_page_img{height: 100px; width: 100px;}
+	.faculty_page_txt_name { text-align: center; font-size: 16px; }
+	
+	
+		/* contact us page */
+	.contact-form label {font-size: 14px;}
+	.contact-form .form-group {margin-bottom: 0.5rem;}
+	.contact-form .form-control {height: 35px;font-size: 13px;}
+	.contact-form .btn-primary{   padding: 4px 16px;}
+	.contact-info {text-align: left; margin-top: 30px; margin-left: 15px;}
+	.contact-info h3{ font-size: 20px;}
+	.contact-info p{ font-size: 14px;}
+	
+	/* All Login page*/
+	.custom-loginpage-crad{margin-top:12px !important;}
+	.custom-loginpage-crad label{font-size: 14px;}
+	.custom-loginpage-crad .card-body .heading {font-size: 20px;}
+	.custom-loginpage-crad .card-body .heading_hr{width: 10%;}
+	.custom-loginpage-crad .form-group {margin-bottom: 0.5rem;}
+	.custom-loginpage-crad .form-control {height: 35px;font-size: 13px;}
+	.custom-loginpage-crad .btn-primary{padding: 4px 16px;}
+	.custom-loginpage-crad p{font-size: 13px;}
+	
+	/*student Dashboard and track Result page */
+	.navbar-dark .navbar-brand{font-size: 18px; padding: 0px 10px;}
+	.navbar-toggler-icon{font-size: 16px;}
+	.sd_img{width: 50px; height: 50px;}
+	.box_head { width: 165px; height: 30px;}
+	.box_head_text {font-size: 12px;}
+	.box_head_hr{border: 1px solid #172337;}
+	.sd_container .table tbody .text1{font-size: 13px;}
+	.sd_container .table tbody .text2{font-size: 13px;}
+	.sd_container table.dataTable{ margin-top: -78px !important;margin-bottom: -78px !important;}
+	.sd_container .table thead .text3 {font-size: 13px;}
+	.sd_container .table thead .text4 {font-size: 13px;}
+	.sd_container .table tbody .text5{font-size: 13px;}
+	.sd_container .table tfoot th{font-size: 10px;}
+
+	
+	
+	/*--------------------- Error and logout Page ---------------------*/
+	.er_page{margin: 75px 0px}
+	.er_text1{font-size: 50px;}
+	.er_text3{font-size: 16px;}
+	.er_text4{font-size: 12px;}
+	.er_btn{font-size: 12px;}
+
+
+	
+}
+
+
+/* Landscape phones and smaller */
+@media screen and (max-width: 479px) {
+ 	/* Heading main */
+	.heading{font-size:16px;}
+	.heading_hr{width: 10%;}
+	 p {color:#333; font-size: 12px;}
+	
+	/* Fancy-border */
+	.fancy-border {background-size: 100% 2px; border-left: 2px solid #BF2222; border-right: 2px solid #190182;}
+	
+	/* Loader Css */
+	.advt_img { height: 130px;}
+	.advt_popup_close{font-size: 14px;}
+	
+	/* Back to top Button */
+	.back-to-top{width: 30px; height: 30px; line-height: 2;}
+	
+	/* Nav bar */
+	#mainNav.affix_nav {position: fixed; background-color: #f8f9fa;padding: 8px;box-shadow:none;}
+	.navbar-fixed-top{ position:fixed; background-color:#f8f9fa;}
+	.navbar-nav .nav-link{ font-size:12px !important;  color:black; padding: 6px;}
+	.navbar-nav .nav-link:hover{color: black;}
+	.navbar img {padding-left: 0px; width: auto; height: 32px;}
+	
+	/*silder */
+	.carousel-indicators li {width: 5px; height: 5px;display: -webkit-box; bottom: -20px;}
+	.carousel-indicators .active {width: 5px; height: 5px;background-color: #BF2222;}
+	.carousel-inner img{height: 50vh; width: 100%; margin-top: 60px;}
+	.carousel-caption h1{bottom: 34px; font-size: 13px;}
+	.carousel-caption h4{bottom: 18px; font-size: 10px;}
+	.carousel-caption h6{bottom: -22px; font-size: 7px; line-height: 0.5px;}
+	
+	/* Course */
+	.course_img{width: 40%;height: 40%;margin-left: 28px}
+	
+	/* Image Mapping */
+	.img_heading{font-size: 16px;}
+	.img_hover_heading {font-size: 16px;padding: 8px;color: #BF2222;}
+	.moniter{display:none; position:absolute;right:5px; top:10px; height:89.5%; width:97.9%; overflow:scroll;}
+	.specker{display:none; position:absolute;right:5px; top:10px; height:89.5%; width:97.9%; overflow:scroll;}
+	.cpu{display:none; position:absolute;right:5px; top:10px; height:89.5%; width:97.9%; overflow:scroll;}
+	.mouse{display:none; position:absolute;right:5px; top:10px; height:89.5%; width:97.9%; overflow:scroll;}
+	.keyboard{display:none; position:absolute;right:5px; top:10px; height:89.5%; width:97.9%; overflow:scroll;}
+	
+	
+	/* Faculty */
+	.sm_size_container{width: 50%; padding-left: 20px; }
+	.faculty-box img {width: 100%;height: 230px;}
+	.faculty-box .title{font-size:14px;}
+	.faculty-box .post{ font-size:12px;}
+	.faculty-box .icon li a{ width:20px; height:20px;line-height:20px; font-size:12px; }
+	
+	/* Promo-banner section */
+	.promo-banner .promo-banner-title{font-size:35px;}
+	
+	/* footer*/
+	.fo-hr { width:10%;}
+	.fo_icon{padding: 2px;}
+	.fo-text1{text-align: center; margin-left: 0px;font-size: 12px; display: block;}
+	.fo-text2 {font-size: 12px;}
+	.fo-copy .lefttext{font-size: 12px;color: #878787; text-align:center;}
+	.fo-copy .righttext{font-size: 12px; margin-top:-38px; color: #878787; text-align:center;}
+	.fo-copy .middletext{font-size: 12px;margin-top: -38px;color: #878787; text-align:center;}
+	.fo-name{font-size:14px; }
+	.fo-content{font-size: 12px;}
+	
+		/* aboutpage */
+	.op-promo-banner .op-promo-banner-title {font-size: 20px;}
+	.about_table i {  font-size: 20px; }
+	.about_table .about_text1{ font-size: 16px; font-weight: 550;}
+	.about_table .about_text2{ font-size: 12px;}
+	.about_logo_img1{height: 200px; margin: 0;}
+	.about_logo_img2{height: 100px; width: 100px;  margin: 0;}
+	.about_txt_name { text-align: center; font-size: 18px;}
+	
+	
+	/* Courses page */
+	#accordion a{padding: 2px 8px;}
+	.panel-title{font-size: 14px;}
+	.panel-body .coures-description {font-size: 12px;}
+	.panel-body .coures-summary {font-size: 12px;}
+	.panel-body table , th {font-size: 12px;}
+	.course_offer_img {height: 200px; width: 100%;}
+	
+	/* faculty page css*/
+	.faculty_page_img{height: 100px; width: 100px;}
+	.faculty_page_txt_name { text-align: center; font-size: 16px; }
+	
+	
+		/* contact us page */
+	.contact-form label {font-size: 14px;}
+	.contact-form .form-group {margin-bottom: 0.5rem;}
+	.contact-form .form-control {height: 35px;font-size: 13px;}
+	.contact-form .btn-primary{   padding: 4px 16px;}
+	.contact-info {text-align: left; margin-top: 30px; margin-left: 15px;}
+	.contact-info h3{ font-size: 20px;}
+	.contact-info p{ font-size: 14px;}
+	
+	/* All Login page*/
+	.custom-loginpage-crad{margin-top: 30px;}
+	.custom-loginpage-crad label{font-size: 14px;}
+	.custom-loginpage-crad .card-body .heading {font-size: 20px;}
+	.custom-loginpage-crad .card-body .heading_hr{width: 10%;}
+	.custom-loginpage-crad .form-group {margin-bottom: 0.5rem;}
+	.custom-loginpage-crad .form-control {height: 35px;font-size: 13px;}
+	.custom-loginpage-crad .btn-primary{padding: 4px 16px;}
+	.custom-loginpage-crad p{font-size: 13px;}
+	
+	/*student Dashboard and track Result page */
+	.navbar-dark .navbar-brand{font-size: 18px; padding: 0px 10px;}
+	.navbar-toggler-icon{font-size: 16px;}
+	.sd_container{margin: 75px 0px; padding-left: 0px;}
+	.sd_jumbotrom {padding: 1rem 1rem; width: 130%; }
+	.sd_img{width: 50px; height: 50px;}
+	.box_head { width: 165px; height: 30px;}
+	.box_head_text {font-size: 12px;}
+	.box_head_hr{border: 1px solid #172337;}
+	.sd_container .table tbody .text1{font-size: 13px;}
+	.sd_container .table tbody .text2{font-size: 13px;}
+	.sd_container table.dataTable{ margin-top: -78px !important;margin-bottom: -78px !important;}
+	.sd_container .table thead .text3 {font-size: 13px;}
+	.sd_container .table thead .text4 {font-size: 13px;}
+	.sd_container .table tbody .text5{font-size: 13px;}
+	.sd_container .table tfoot th{font-size: 10px;}
+
+
+	
+	/*--------------------- Error and logout Page ---------------------*/
+	.er_page{margin: 75px 0px}
+	.er_text1{font-size: 50px;}
+	.er_text3{font-size: 16px;}
+	.er_text4{font-size: 12px;}
+	.er_btn{font-size: 12px;}
+
+}
+
+
+
+/* Landscape phones and smaller */
+@media screen and (max-width:411px){
+	/* Heading main */
+	.heading{font-size:16px;}
+	.heading_hr{width: 10%;}
+	 p {color:#333; font-size: 12px;}
+	
+	/* Fancy-border */
+	.fancy-border {background-size: 100% 2px; border-left: 2px solid #BF2222; border-right: 2px solid #190182;}
+	
+	/* Loader Css */
+	.advt_img { height: 130px;}
+	.advt_popup_close{font-size: 14px;}
+	
+	/* Back to top Button */
+	.back-to-top{width: 30px; height: 30px; line-height: 2;}
+	
+	/* Nav bar */
+	#mainNav.affix_nav {position: fixed; background-color: #f8f9fa;padding: 8px;box-shadow:none;}
+	.navbar-fixed-top{ position:fixed; background-color:#f8f9fa;}
+	.navbar-nav .nav-link{ font-size:12px !important;  color:black; padding: 6px;}
+	.navbar-nav .nav-link:hover{color: black;}
+	.navbar img {padding-left: 0px; width: auto; height: 27px;}
+	
+	/*silder */
+	.carousel-indicators li {width: 5px; height: 5px;display: -webkit-box; bottom: -20px;}
+	.carousel-indicators .active {width: 5px; height: 5px;background-color: #BF2222;}
+	.carousel-inner img{height: 40vh; width: 100%; margin-top: 57px;}
+	.carousel-caption h1{bottom: 32px; font-size: 12px;}
+	.carousel-caption h4{bottom: 17px; font-size: 10px;}
+	.carousel-caption h6{bottom: -18px; font-size: 7px; line-height: 0px;}
+	
+	/* Course */
+	.course_img{width: 40%;height: 40%;margin-left: 27px}
+	
+	/* Image Mapping */
+	.img_heading{font-size: 16px;}
+	.img_hover_heading {font-size: 16px;padding: 8px;color: #BF2222;}
+	.moniter{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.5%; overflow:scroll;}
+	.specker{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.5%; overflow:scroll;}
+	.cpu{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.5%; overflow:scroll;}
+	.mouse{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.5%; overflow:scroll;}
+	.keyboard{display:none; position:absolute;right:5px; top:10px; height:90.5%; width:97.5%; overflow:scroll;}
+	
+	
+	/* Faculty */
+	.sm_size_container{width: 50%; padding-left: 20px; }
+	.faculty-box img {width: 100%;height: 200px;}
+	.faculty-box .title{font-size:13px;}
+	.faculty-box .post{ font-size:10px;}
+	.faculty-box .icon li a{ width:20px; height:20px;line-height:20px; font-size:10px; }
+	
+	/* Promo-banner section */
+	.promo-banner .promo-banner-title{font-size:24px;}
+	
+	/* footer*/
+	.fo-hr { width:10%;}
+	.fo_icon{padding: 2px;}
+	.fo-text1{text-align: center; margin-left: 0px;font-size: 12px; display: block;}
+	.fo-text2 {font-size: 12px;}
+	.fo-copy .lefttext{font-size: 12px;color: #878787; text-align:center;}
+	.fo-copy .righttext{font-size: 12px; margin-top:-38px; color: #878787; text-align:center;}
+	.fo-copy .middletext{font-size: 12px;margin-top: -38px;color: #878787; text-align:center;}
+	.fo-name{font-size:14px; }
+	.fo-content{font-size: 12px;}
+	
+		/* aboutpage */
+	.op-promo-banner .op-promo-banner-title {font-size: 20px;}
+	.about_table i {  font-size: 20px; }
+	.about_table .about_text1{ font-size: 16px; font-weight: 550; }
+	.about_table .about_text2{ font-size: 12px;}
+	.about_logo_img1{height: 200px; margin: 0;}
+	.about_logo_img2{height: 100px; width: 100px;  margin: 0;}
+	.about_txt_name { text-align: center; font-size: 18px;}
+	
+	/* Courses page */
+	#accordion a{padding: 2px 8px;}
+	.panel-title{font-size: 14px;}
+	.panel-body .coures-description {font-size: 12px;}
+	.panel-body .coures-summary {font-size: 12px;}
+	.panel-body table , th {font-size: 12px;}
+	.course_offer_img {height: 200px; width: 100%;}
+	
+	/* faculty page css*/
+	.faculty_page_img{height: 100px; width: 100px;}
+	.faculty_page_txt_name { text-align: center; font-size: 16px; }
+	
+	
+		/* contact us page */
+	.contact-form label {font-size: 14px;}
+	.contact-form .form-group {margin-bottom: 0.5rem;}
+	.contact-form .form-control {height: 35px;font-size: 13px;}
+	.contact-form .btn-primary{   padding: 4px 16px;}
+	.contact-info {text-align: left; margin-top: 30px; margin-left: 15px;}
+	.contact-info h3{ font-size: 20px;}
+	.contact-info p{ font-size: 14px;}
+	
+	/* All Login page*/
+	.custom-loginpage-crad{ margin-top: 22px !important;}
+	.custom-loginpage-crad label{font-size: 14px;}
+	.custom-loginpage-crad .card-body .heading {font-size: 20px;}
+	.custom-loginpage-crad .card-body .heading_hr{width: 10%;}
+	.custom-loginpage-crad .form-group {margin-bottom: 0.5rem;}
+	.custom-loginpage-crad .form-control {height: 35px;font-size: 13px;}
+	.custom-loginpage-crad .btn-primary{padding: 4px 16px;}
+	.custom-loginpage-crad p{font-size: 13px;}
+	
+	/*student Dashboard and track Result page */
+	.navbar-dark .navbar-brand{font-size: 18px; padding: 0px 10px;}
+	.navbar-toggler-icon{font-size: 16px;}
+	.sd_container{margin: 75px 0px; padding-left: 0px;}
+	.sd_jumbotrom {padding: 1rem 1rem; width: 130%; }
+	.sd_img{width: 50px; height: 50px;}
+	.box_head { width: 165px; height: 30px;}
+	.box_head_text {font-size: 12px;}
+	.box_head_hr{border: 1px solid #172337;}
+	.sd_container .table tbody .text1{font-size: 12px;}
+	.sd_container .table tbody .text2{font-size: 12px;}
+	.sd_container table.dataTable{ margin-top: -78px !important;margin-bottom: -78px !important;}
+	.sd_container .table thead .text3 {font-size: 12px;}
+	.sd_container .table thead .text4 {font-size: 12px;}
+	.sd_container .table tbody .text5{font-size: 12px;}
+	.sd_container .table tfoot th{font-size: 10px;}
+	
+	
+	/*--------------------- Error and logout Page ---------------------*/
+	.er_page{margin: 30px 0px}
+	.er_text1{font-size: 50px;}
+	.er_text3{font-size: 16px;}
+	.er_text4{font-size: 12px;}
+	.er_btn{font-size: 12px;}
+
+
+	
+} 
+
+
+/* Landscape phones and smaller */
+@media screen and (max-width:360px){
+	/* Heading main */
+	.heading{font-size:16px;}
+	.heading_hr{width: 10%;}
+	 p {color:#333; font-size: 12px;}
+	
+	/* Loader Css */
+	.advt_img { height: 94px;}
+	.advt_popup_close{font-size: 12px;}
+	
+	/* Back to top Button */
+	.back-to-top{width: 30px; height: 30px; line-height: 2;}
+	
+	/* Fancy-border */
+	.fancy-border {background-size: 100% 1px; border-left: 1px solid #BF2222; border-right: 1px solid #190182;}
+	
+	/* Nav bar */
+	#mainNav.affix_nav {position: fixed; background-color: #f8f9fa;padding: 8px;box-shadow:none;}
+	.navbar-fixed-top{ position:fixed; background-color:#f8f9fa;}
+	.navbar-nav .nav-link{ font-size:12px !important;  color:black; padding: 6px;}
+	.navbar-nav .nav-link:hover{color: black;}
+	.navbar img {padding-left: 0px; width: auto; height: 30px;}
+	
+	/*silder */
+	.carousel-indicators li {width: 5px; height: 5px;display: -webkit-box; bottom: -20px;}
+	.carousel-indicators .active {width: 5px; height: 5px;background-color: #BF2222;}
+	.carousel-inner img{height: 40vh; width: 100%; margin-top: 56px;}
+	.carousel-caption h1{bottom: 24px; font-size: 8px;}
+	.carousel-caption h4{bottom: 10px; font-size: 10px;}
+	.carousel-caption h6{bottom: -25px; font-size: 6px; line-height: 0px;}
+	
+	/* Course */
+	.course_img{width: 40%;height: 40%;margin-left: 21px}
+	
+	/* Image Mapping */
+	.img_heading{font-size: 16px;}
+	.img_hover_heading {font-size: 16px;padding: 8px;color: #BF2222;}
+	.moniter{display:none; position:absolute;right:5px; top:10px; height:92%; width:96.5%; overflow:scroll;}
+	.specker{display:none; position:absolute;right:5px; top:10px; height:92%; width:96.5%; overflow:scroll;}
+	.cpu{display:none; position:absolute;right:5px; top:10px; height:92%; width:96.5%; overflow:scroll;}
+	.mouse{display:none; position:absolute;right:5px; top:10px; height:92%; width:96.5%; overflow:scroll;}
+	.keyboard{display:none; position:absolute;right:5px; top:10px; height:92%; width:96.5%; overflow:scroll;}
+	
+	
+	/* Faculty */
+	.sm_size_container{width: 50%; padding-left: 20px; }
+	.faculty-box img {width: 100%;height: 200px;}
+	.faculty-box .title{font-size:13px;}
+	.faculty-box .post{ font-size:10px;}
+	.faculty-box .icon li a{ width:20px; height:20px;line-height:20px; font-size:10px; }
+	
+	/* Promo-banner section */
+	.promo-banner .promo-banner-title{font-size:24px;}
+	
+	/* footer*/
+	.fo-hr { width:10%;}
+	.fo_icon{padding: 2px;}
+	.fo-text1{text-align: center; margin-left: 0px;font-size: 12px; display: block;}
+	.fo-text2 {font-size: 12px;}
+	.fo-copy .lefttext{font-size: 12px;color: #878787; text-align:center;}
+	.fo-copy .righttext{font-size: 12px; margin-top:-38px; color: #878787; text-align:center;}
+	.fo-copy .middletext{font-size: 12px;margin-top: -38px;color: #878787; text-align:center;}
+	.fo-name{font-size:13px; }
+	
+	.fo-content{font-size: 12px;}
+	
+	/* aboutpage */
+	.op-promo-banner .op-promo-banner-title {font-size: 20px;}
+	.about_table i {  font-size: 20px; }
+	.about_table .about_text1{ font-size: 16px; font-weight: 550;}
+	.about_table .about_text2{ font-size: 12px;}
+	.about_logo_img1{height: 200px; margin: 0;}
+	.about_logo_img2{height: 100px; width: 100px;  margin: 0;}
+	.about_txt_name { text-align: center; font-size: 18px;}
+	
+	/* faculty page css*/
+	.faculty_page_img{height: 100px; width: 100px;}
+	.faculty_page_txt_name { text-align: center; font-size: 16px; }
+	
+	
+	
+	/* Courses page */
+	#accordion a{padding: 2px 8px;}
+	.panel-title{font-size: 14px;}
+	.panel-body .coures-description {font-size: 12px;}
+	.panel-body .coures-summary {font-size: 12px;}
+	.panel-body table , th {font-size: 12px;}
+	.course_offer_img {height: 200px; width: 100%;}
+
+	/* contact us page */
+	.contact-form label {font-size: 14px;}
+	.contact-form .form-group {margin-bottom: 0.5rem;}
+	.contact-form .form-control {height: 35px;font-size: 13px;}
+	.contact-form .btn-primary{   padding: 4px 16px;}
+	.contact-info {text-align: left; margin-top: 30px; margin-left: 15px;}
+	.contact-info h3{ font-size: 20px;}
+	.contact-info p{ font-size: 14px;}
+	
+	/* All Login page*/
+	.custom-loginpage-crad{ margin-top: 22px !important;}
+	.custom-loginpage-crad label{font-size: 14px;}
+	.custom-loginpage-crad .card-body .heading {font-size: 20px;}
+	.custom-loginpage-crad .card-body .heading_hr{width: 10%;}
+	.custom-loginpage-crad .form-group {margin-bottom: 0.5rem;}
+	.custom-loginpage-crad .form-control {height: 35px;font-size: 13px;}
+	.custom-loginpage-crad .btn-primary{padding: 4px 16px;}
+	.custom-loginpage-crad p{font-size: 13px;}
+	
+	/*student Dashboard and track Result page */
+	.navbar-dark .navbar-brand{font-size: 18px; padding: 0px 10px;}
+	.navbar-toggler-icon{font-size: 16px;}
+	.sd_container{margin: 75px 0px; padding-left: 0px;}
+	.sd_jumbotrom {padding: 1rem 1rem; width: 130%; }
+	.sd_img{width: 50px; height: 50px;}
+	.box_head { width: 165px; height: 30px;}
+	.box_head_text {font-size: 12px;}
+	.box_head_hr{border: 1px solid #172337;}
+	.sd_container .table tbody .text1{font-size: 12px;}
+	.sd_container .table tbody .text2{font-size: 12px;}
+	.sd_container table.dataTable{ margin-top: -78px !important;margin-bottom: -78px !important;}
+	.sd_container .table thead .text3 {font-size: 12px;}
+	.sd_container .table thead .text4 {font-size: 12px;}
+	.sd_container .table tbody .text5{font-size: 12px;}
+	.sd_container .table tfoot th{font-size: 10px;}
+
+	
+	
+	/*--------------------- Error and logout Page ---------------------*/
+	.er_page{margin: 30px 0px}
+	.er_text1{font-size: 50px;}
+	.er_text3{font-size: 16px;}
+	.er_text4{font-size: 12px;}
+	.er_btn{font-size: 12px;}
+	
+} 
+

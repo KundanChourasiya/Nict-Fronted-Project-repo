@@ -1,0 +1,307 @@
+<!doctype html>
+<!-- ==============================
+    Project:        NICT - Responsive HTML Template Based On Twitter Bootstrap 4.0
+    Version:        1.0
+    Author:         Kundan Kumar Chourasiya
+    Primary use:    Education.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>NICT-Admin Dashboard</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        
+         <!-- Data table bootstrap Table -->
+        <link href="css/dataTables.bootstrap4.min.css" type="text/css" rel="stylesheet">
+        
+        
+		<!-- THEME STYLES -->
+        <link href="css/mystylesheet.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" />
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" type="text/css"/>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/Logo/favicon.ico.png">
+    </head>
+    <!-- END HEAD -->
+
+ <body id="custom-loginpage-pg-bg">
+ 
+ 	<header class="site-header custom-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top navbar-nav" >
+            <div class="container">
+                <a class="navbar-brand mr-4" href="#">Nict - Admin DashBoard</a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  				 </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav mr-auto"> </div>
+                    <!-- Nav Right side -->
+                    <div class="navbar-nav">
+            				<a class="nav-item nav-link" href="#">Visit Website</a>
+                            <a class="nav-item nav-link" href="">Logout</a>
+  
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<div class="jumbotron-fluid ad_sidebar_jumbotron">
+	<div class="row">
+		<div class="col-md-2 col-sm-2">
+			<div class="ad_sidebar">
+				<ul>
+  					<li><a class="active" href="#">Home</a></li>
+  					<li><a href="#">New Admission</a></li>
+  					<li><a href="#"> All Student Details </a></li>
+  					<li><a href="#">Fee submition</a></li>
+  					<li><a href="#">Certificate Upload</a></li>
+  					<li><a href="#">Contact Details </a></li>
+				</ul>
+			</div>
+		</div>
+	
+	<!----------------------- home Page ---------------->
+	
+	<div class="col-md-10 col-md-10">
+		<div class="jumbotron ad_jumbotron">
+    		<div class="ad_heading">FEE SUBMITION</div>
+    		<hr class="ad_hr">
+    		<!---------------------- Fee Submition Find Section------------------>
+    		<div class="ad-fs-find offset-4">
+    		<form class="form-inline" >
+				<input type="text" class="form-control" placeholder="Enter Reg No." >
+
+				<button type="submit" class="btn btn-dark ad-fs-btn">Find</button>
+			</form>
+    			
+    		</div>
+    		
+    		<!---------------------- Fee Submition ------------------>
+    		<div class="row">
+    		<!---------------------- Fee Submition Form ------------------>
+    		<div class="col-md-6">
+    			<div class="ad_fs_heading">Fee Submition Form</div>
+    			<hr class="ad_fs_hr">
+
+    			<form>
+				  <div class="form-row">
+					<div class="form-group col-md-6">
+					  <label>Receipt No.<span>*</span></label>
+					  <input type="text" class="form-control" value="12356" readonly>
+					</div>
+					<div class="form-group col-md-6">
+					  <label>Date<span>*</span></label>
+					  <input type="date" class="form-control" placeholder="Date">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label>Student Name<span>*</span></label>
+					<input type="text" class="form-control" value="Sunny Kumar" readonly>
+				  </div>
+				  <div class="form-group">
+					<label>Course Name<span>*</span></label>
+					<input type="text" class="form-control" value="DCA" readonly>
+				  </div>
+				  <div class="form-group">
+					<label>Registition No.<span>*</span></label>
+					<input type="text" class="form-control" value="1236545898" readonly>
+				  </div>
+				  <div class="form-row">
+					<div class="form-group col-md-4">
+					  <label> Month<span>*</span></label>
+					  <select  class="form-control">
+						<option selected>Choose...</option>
+						<option>...</option>
+					  </select>
+					</div>
+					<div class="form-group col-md-4">
+					  <label> Amount <span>*</span></label>
+					  <input type="text" class="form-control" >
+					</div>
+					<div class="form-group col-md-4">
+					  <label> Payment Mode<span>*</span></label>
+					  <select  class="form-control">
+						<option selected>Choose...</option>
+						<option>Case</option>
+						<option>Online</option>
+					  </select>
+					</div>
+				  </div>
+					
+				  <center><button type="submit" class="btn btn-primary">Pay</button></center>
+				</form>
+    			
+    		</div>
+    		
+    		<div class="ad_fs_vl"></div>
+    		
+    		<!---------------------- Student Fee Details ------------------>
+    		<div class="col-md-6">
+    			<div class="ad_fs_heading">Student Fee Details</div>
+    			<hr class="ad_fs_hr">
+    			<div class="ad-fs-sd-prv">
+    			<table class="table">
+    				<tbody>
+						  <tr>
+						  <td class="text1">Reg No.</td>
+						  <td class="text2"> 123455744</td>
+						</tr>
+						 <tr>
+						  <td class="text1">Student Name:</td>
+						  <td class="text2">kundan kumar chourasiya</td>
+						</tr>
+						 <tr>
+						  <td class="text1">Course Name </td>
+						  <td class="text2">DCA</td>
+						</tr>
+						<tr>
+						  <td class="text1">Course Fee </td>
+						  <td class="text2">1500/-</td>
+						</tr>
+					</tbody>
+					</table>
+   			
+   			<table class="table" id="mydatatable">
+   				<thead>
+   					<tr>
+   						<td class="text3">Month</td>
+   						<td class="text3">Fee</td>
+   						<td class="text3">Payment Date</td>
+   						<td class="text3">Payment Mode</td>
+   						<td class="text3">Payment By</td>
+   						<td class="text3">Print Receipt</td>
+   					</tr>
+   				</thead>
+   				<tbody>
+					<tr>
+					  <td class="text4">Jan</td>
+					  <td class="text4">500</td>
+					  <td class="text4">25/10/2019</td>
+					  <td class="text4">Case</td>
+					  <td class="text4">Ponam Chourasia</td>
+					  <td class="text4"><a href=""><i class="fa fa-print iprint"></i></a></td>
+					</tr>
+  				<tr>
+					  <td class="text4">Jan</td>
+					  <td class="text4">500</td>
+					  <td class="text4">25/10/2019</td>
+					  <td class="text4">Case</td>
+					  <td class="text4">Ponam Chourasia</td>
+					  <td class="text4"><a href=""><i class="fa fa-print iprint"></i></a></td>
+					</tr>
+  				<tr>
+					  <td class="text4">Jan</td>
+					  <td class="text4">500</td>
+					  <td class="text4">25/10/2019</td>
+					  <td class="text4">Case</td>
+					  <td class="text4">Ponam Chourasia</td>
+					  <td class="text4"><a href=""><i class="fa fa-print iprint"></i></a></td>
+					</tr>
+   				</tbody>
+   				<tfoot>
+					<tr>
+						<th  colspan="1">Total:</th>
+						<th></th>
+					</tr>
+				</tfoot>
+   			</table>
+					
+    			</div>
+    		</div>
+    		</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+
+
+	
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+        <script src="js/popper-min 1.12.5.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+      	<script src="js/wow.js" type="text/javascript"></script>
+      	<script src="js/wow.min.js" type="text/javascript"></script>
+        <script src="js/parallax.min.js" type="text/javascript"></script>
+        <script src="js/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="js/jquery.SmoothScroll.js" type="text/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+
+         <!-- Data Table Plugins -->
+	 	<script src="js/jquery.dataTables.min.js" type="text/javascript"></script>
+	 	<script src="js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+
+
+        <!-- PAGE LEVEL SCRIPTS -->
+       <script src="js/main.js" type="text/javascript"></script>
+       
+       <script>
+	  $('#mydatatable').DataTable({
+		  "searching":false,
+		  "paging":   false,
+          "ordering": false,
+          "info":     false,
+		  footerCallback: function(row, data, start, end, display){
+			  var api = this.api(), data;
+			  
+			  // Remove the formatting to get integer data for summation
+			  var intVal = function (i){
+				  return typeof i == 'string' ?
+					  i.replace(/[\$,]/g, '') * 1:
+				  	  typeof i == 'number' ?
+					  i:0;
+			  };
+			  
+			  // Total over all pages
+			  total = api
+			  	.column (1)
+			  	.data()
+			  	.reduce(function (a,b){
+				  return intVal(a) + intVal(b);
+			  },0 );
+			  
+			  // Total over this page
+			  pageTotal = api
+			  	.column(1, {page: 'current'})
+			  	.data()
+			  	.	reduce( function (a, b){
+				  return intVal(a) + intVal(b);
+			  }, 0);
+			  
+			  // Update footer
+			  $(api.column(1).footer() ).html(
+				  ' ($ '+ total +')'
+			  );
+		  }
+	  })
+  </script>
+ 
+     
+			
+	 
+ </body>
+</html>
