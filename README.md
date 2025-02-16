@@ -1,6 +1,7 @@
 # Nict-Fronted-Project_repo
  Developed this application using Html, Css, JavaScript, Bootstrap, Jquery etc...
-
+ 
+> [!NOTE]
 Final project live on :- https://nictacademy.in/
 
 ![image](https://github.com/user-attachments/assets/4016db40-2833-4bc5-8dd4-071286da6cf5)
